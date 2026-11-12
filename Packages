@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.12.18
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 6920
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.12.18_all.deb
-Size: 2710812
-MD5sum: b5c3d55524b056faecabfa4788993cc7
-SHA1: b68765600828f8c9a7c484c9d5e3d178c0a785bb
-SHA256: 301e68a4496baac165ac6d839015de65378134f1bb18bf50495c65a89aee8563
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Po instalacji na dysk „Zainstaluj GlassOS” znika z Launchpada (zostaje tylko na pendrive’ie)
-
-Package: glassos-desktop
 Version: 2026.11.12.19
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,6 +35,25 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Wybieranie emoji (Super+.) z wyszukiwaniem po polsku; połączenie z telefonem z Androidem (KDE Connect): powiadomienia, pliki, schowek, dzwonienie – Ustawienia → Telefon
+
+Package: glassos-desktop
+Version: 2026.11.12.21
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 12232
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter
+Conflicts: jstest-gtk
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.12.21_all.deb
+Size: 7926172
+MD5sum: a1ab4982c28b9105dd5a5e010e4532d6
+SHA1: 27bb189a824d1873b16b624009ce097bd698f039
+SHA256: c1531ab05ee45da5167fd0cf347cfbb35989b7e4093adb554699c5f9be54de54
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Nowy wygląd: czcionka Inter, okna z wyższą belką i cienkimi przyciskami w stylu Windows 11, mocniejsze szkło i miększe cienie, szklany dock z powiększaniem ikon, 3 nowe tapety (Laguna, Zachód, Mgławica)
 
 Package: glassos-logind-compat
 Version: 1.0

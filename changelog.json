@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.12.21",
+  "date": "2026-11-12",
+  "notes": "Nowy wygląd: czcionka Inter, okna z wyższą belką i cienkimi przyciskami w stylu Windows 11, mocniejsze szkło i miększe cienie, szklany dock z powiększaniem ikon, 3 nowe tapety (Laguna, Zachód, Mgławica)"
+ },
+ {
   "version": "2026.11.12.20",
   "date": "2026-11-12",
   "notes": "Wybieranie emoji (Super+.) z wyszukiwaniem po polsku; połączenie z telefonem z Androidem (KDE Connect): powiadomienia, pliki, schowek, dzwonienie – Ustawienia → Telefon"
