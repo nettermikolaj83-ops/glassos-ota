@@ -1,21 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.12.10
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 6684
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, jstest-gtk
-Filename: pool/glassos-desktop_2026.11.12.10_all.deb
-Size: 2618352
-MD5sum: 566e2d8a50dcb57d2d6fb34cad4ddd55
-SHA1: b5db27b9ed39a277239afae5930ec7ffeb8a6194
-SHA256: 075450314c5c37abe2799f7d12efc1ee5d09ae3d4aa27144b53e7d545b1b5c08
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Bluetooth: włączenie się utrzymuje (odblokowanie rfkill bez narzędzia rfkill, AutoEnable, stan przez D-Bus)
-
-Package: glassos-desktop
 Version: 2026.11.12.11
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -52,4 +35,23 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Samo naciśnięcie Super otwiera i zamyka Launchpad (wyłączane w Skrótach klawiszowych)
+
+Package: glassos-desktop
+Version: 2026.11.12.13
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 6720
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev
+Conflicts: jstest-gtk
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.12.13_all.deb
+Size: 2626408
+MD5sum: 36c432a67397b85c7ca9aa2f71061ed6
+SHA1: 0d3653eb42ecf338f041aa435ee91a9783ef09a2
+SHA256: e0510c28681aa195a992225962227917ba83a55efa92065c6243c20cc302d5c5
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Drukarki: widoczny sterownik i przycisk Popraw sterownik (sterowniki producenta, np. Epson L3250)
 
