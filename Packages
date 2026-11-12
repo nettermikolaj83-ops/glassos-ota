@@ -1,21 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.12.3
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 6656
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, jstest-gtk
-Filename: pool/glassos-desktop_2026.11.12.3_all.deb
-Size: 2614392
-MD5sum: 952205e8f747fd7303bc9073197e9728
-SHA1: 2843e54d58fe41318ba6e110287ea5a2b9aa887f
-SHA256: d322afedeaa43165d729e4d9b48aca9d35c69477a5db388dc5abd5cfd960156c
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Pierwsza wersja GlassOS OTA: drukarki, menu na górze, animacje, Monitor aktywności, gesty, nagrywanie ekranu, bateria, aktualizacje.
-
-Package: glassos-desktop
 Version: 2026.11.12.4
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -48,4 +31,21 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Aktualizacje przychodzą szybciej: sprawdzanie 2 min po starcie, potem co 3 godziny
+
+Package: glassos-desktop
+Version: 2026.11.12.6
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 6660
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, jstest-gtk
+Filename: pool/glassos-desktop_2026.11.12.6_all.deb
+Size: 2615168
+MD5sum: 584a940707d004ebbe7fc629f0a14075
+SHA1: 0e0e477fc3d4153cc1e7a0885564c1f17d97c809
+SHA256: e6931c7a28e3d82dc0b06d504beff26eaac402e8d0a728b748f12e671aedf148
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Test OTA: poprawione powiększanie partycji przy pierwszym starcie (naprawa błędu grub>)
 
