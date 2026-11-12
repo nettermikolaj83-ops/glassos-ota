@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.12.13
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 6720
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.12.13_all.deb
-Size: 2626408
-MD5sum: 36c432a67397b85c7ca9aa2f71061ed6
-SHA1: 0d3653eb42ecf338f041aa435ee91a9783ef09a2
-SHA256: e0510c28681aa195a992225962227917ba83a55efa92065c6243c20cc302d5c5
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Drukarki: widoczny sterownik i przycisk Popraw sterownik (sterowniki producenta, np. Epson L3250)
-
-Package: glassos-desktop
 Version: 2026.11.12.14
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,4 +35,23 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Asystent pierwszego uruchomienia (Wi-Fi, własne hasło, wygląd); nocne światło i automatyczny tryb ciemny; wybór wyjścia dźwięku i sieci Wi-Fi w Centrum sterowania; bateria pada na pasku; instalator GlassOS na dysk
+
+Package: glassos-desktop
+Version: 2026.11.12.16
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 6916
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr
+Conflicts: jstest-gtk
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.12.16_all.deb
+Size: 2710340
+MD5sum: 9c8f7166b3226fb45a53a2465db3d34f
+SHA1: d57eb4f4f62781c0b6aa8cdfa3a9970918912818
+SHA256: 82da90fd74d3a95632ef510d60892f3e4e3e6018273dc37a6742f969098ec811
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Instalator: instalacja obok Windows (dual boot) z suwakiem podziału dysku, menu GlassOS/Windows przy starcie; obsługa dysków NTFS
 

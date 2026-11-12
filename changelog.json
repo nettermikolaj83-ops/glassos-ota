@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.12.16",
+  "date": "2026-11-12",
+  "notes": "Instalator: instalacja obok Windows (dual boot) z suwakiem podziału dysku, menu GlassOS/Windows przy starcie; obsługa dysków NTFS"
+ },
+ {
   "version": "2026.11.12.15",
   "date": "2026-11-12",
   "notes": "Asystent pierwszego uruchomienia (Wi-Fi, własne hasło, wygląd); nocne światło i automatyczny tryb ciemny; wybór wyjścia dźwięku i sieci Wi-Fi w Centrum sterowania; bateria pada na pasku; instalator GlassOS na dysk"
