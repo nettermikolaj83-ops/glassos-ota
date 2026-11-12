@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.12.22",
+  "date": "2026-11-12",
+  "notes": "Nowy wygląd okien stosuje się sam po aktualizacji (przy następnym logowaniu)"
+ },
+ {
   "version": "2026.11.12.21",
   "date": "2026-11-12",
   "notes": "Nowy wygląd: czcionka Inter, okna z wyższą belką i cienkimi przyciskami w stylu Windows 11, mocniejsze szkło i miększe cienie, szklany dock z powiększaniem ikon, 3 nowe tapety (Laguna, Zachód, Mgławica)"
