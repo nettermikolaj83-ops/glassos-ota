@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.12.17
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 6916
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.12.17_all.deb
-Size: 2710308
-MD5sum: 459bd7b4e9bc25e377ace4fca6d343e5
-SHA1: 6311cc97311f6f389f8b9224ba7d28626b7e7afa
-SHA256: 1e7968ad8b5fe2c67f0a166b91645d6266f2cac93d25935edc3cb24312f8bc37
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Instalator: naprawiony brak wyboru „Obok Windows / Wymaż dysk” i suwaka podziału
-
-Package: glassos-desktop
 Version: 2026.11.12.18
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,4 +35,40 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Instalator: czysta instalacja GlassOS pobierana z internetu (bez plików, programów i ustawień z pendrive’a), podpisana i sprawdzana
+
+Package: glassos-desktop
+Version: 2026.11.12.20
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 7252
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji
+Conflicts: jstest-gtk
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.12.20_all.deb
+Size: 2853600
+MD5sum: d82aaa5d337019ea0f60c31dc03eca0e
+SHA1: 64b440e29c4666ef28366dad957620a6429cbf67
+SHA256: 32901c4d8a0c8febceeacbdd21880df31235c01a581d5fec3019de487631b459
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Wybieranie emoji (Super+.) z wyszukiwaniem po polsku; połączenie z telefonem z Androidem (KDE Connect): powiadomienia, pliki, schowek, dzwonienie – Ustawienia → Telefon
+
+Package: glassos-logind-compat
+Version: 1.0
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Provides: logind, default-logind
+Filename: pool/glassos-logind-compat_1.0_all.deb
+Size: 984
+MD5sum: 651315594b18d51276d91869483d01a2
+SHA1: f6a1f26c077b17a26a8d6c156070ce98b34ac220
+SHA256: fb753584a3a8564abb9b2ab2431d9f772e9f7a7c1e0830f705adc8249ef0f512
+Section: admin
+Priority: optional
+Description: GlassOS: satisfies "logind" for Debian packages
+ GlassOS runs its own session manager (glassos-dm) instead of systemd-logind.
+ Some Debian packages (e.g. KDE Connect through polkit-qt) only list logind
+ as a dependency without needing it at run time.
 

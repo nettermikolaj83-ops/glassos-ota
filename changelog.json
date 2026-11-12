@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.12.20",
+  "date": "2026-11-12",
+  "notes": "Wybieranie emoji (Super+.) z wyszukiwaniem po polsku; połączenie z telefonem z Androidem (KDE Connect): powiadomienia, pliki, schowek, dzwonienie – Ustawienia → Telefon"
+ },
+ {
   "version": "2026.11.12.19",
   "date": "2026-11-12",
   "notes": "Instalator: czysta instalacja GlassOS pobierana z internetu (bez plików, programów i ustawień z pendrive’a), podpisana i sprawdzana"
