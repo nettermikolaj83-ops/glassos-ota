@@ -1,0 +1,21 @@
+{
+ "version": "2026.11.12.2120",
+ "release": "rootfs-2026.11.12.2120",
+ "base": "https://github.com/nettermikolaj83-ops/glassos-ota/releases/download/rootfs-2026.11.12.2120",
+ "root_uuid": "80c0a4fb-2e3c-40ed-a0ca-c40550efc836",
+ "glassos_desktop": "2026.11.12.15",
+ "unpacked_size": 8295997194,
+ "created": "2026-11-12 21:21",
+ "parts": [
+  {
+   "name": "glassos-rootfs.tar.zst.part00",
+   "size": 1992294400,
+   "sha256": "362c9afcc5c35e14ed3c512b370fe022c5ce59cbfb35d7ccd04aec1ad830791c"
+  },
+  {
+   "name": "glassos-rootfs.tar.zst.part01",
+   "size": 681787712,
+   "sha256": "e9f8b34770ca2f6eb4c1681aa458026e88ee717cb496b687adae39cacb5885b7"
+  }
+ ]
+}
