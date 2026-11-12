@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.12.17",
+  "date": "2026-11-12",
+  "notes": "Instalator: naprawiony brak wyboru „Obok Windows / Wymaż dysk” i suwaka podziału"
+ },
+ {
   "version": "2026.11.12.16",
   "date": "2026-11-12",
   "notes": "Instalator: instalacja obok Windows (dual boot) z suwakiem podziału dysku, menu GlassOS/Windows przy starcie; obsługa dysków NTFS"

@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.12.14
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 6740
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.12.14_all.deb
-Size: 2628708
-MD5sum: 8776da43d0f1afc1cc0342127f662237
-SHA1: c1442b9f4ce91230f295161b809cd6d559ad65d6
-SHA256: 707533da3b7251a78ae84617a1041bc1f8bc4b3bba5cc7f914b0b0173ad9f6ea
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Co nowego: opis każdej wersji w powiadomieniu i w Ustawieniach; aktualizacje mogą instalować się same w nocy
-
-Package: glassos-desktop
 Version: 2026.11.12.15
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,4 +35,23 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Instalator: instalacja obok Windows (dual boot) z suwakiem podziału dysku, menu GlassOS/Windows przy starcie; obsługa dysków NTFS
+
+Package: glassos-desktop
+Version: 2026.11.12.17
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 6916
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr
+Conflicts: jstest-gtk
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.12.17_all.deb
+Size: 2710308
+MD5sum: 459bd7b4e9bc25e377ace4fca6d343e5
+SHA1: 6311cc97311f6f389f8b9224ba7d28626b7e7afa
+SHA256: 1e7968ad8b5fe2c67f0a166b91645d6266f2cac93d25935edc3cb24312f8bc37
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Instalator: naprawiony brak wyboru „Obok Windows / Wymaż dysk” i suwaka podziału
 
