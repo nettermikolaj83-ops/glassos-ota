@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.12.18",
+  "date": "2026-11-12",
+  "notes": "Po instalacji na dysk „Zainstaluj GlassOS” znika z Launchpada (zostaje tylko na pendrive’ie)"
+ },
+ {
   "version": "2026.11.12.17",
   "date": "2026-11-12",
   "notes": "Instalator: naprawiony brak wyboru „Obok Windows / Wymaż dysk” i suwaka podziału"

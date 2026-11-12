@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.12.15
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 6876
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.12.15_all.deb
-Size: 2687560
-MD5sum: c7564c5fb6798d6ff6122ae7aa9f49ae
-SHA1: 671355e0f24ead0dbed9b43444586151dc78bf13
-SHA256: 91bd25dcd30ab5434e89d9a2367f4d60bf4d41c8b4f811f057bb19eb432a31fe
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Asystent pierwszego uruchomienia (Wi-Fi, własne hasło, wygląd); nocne światło i automatyczny tryb ciemny; wybór wyjścia dźwięku i sieci Wi-Fi w Centrum sterowania; bateria pada na pasku; instalator GlassOS na dysk
-
-Package: glassos-desktop
 Version: 2026.11.12.16
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,4 +35,23 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Instalator: naprawiony brak wyboru „Obok Windows / Wymaż dysk” i suwaka podziału
+
+Package: glassos-desktop
+Version: 2026.11.12.18
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 6920
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr
+Conflicts: jstest-gtk
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.12.18_all.deb
+Size: 2710812
+MD5sum: b5c3d55524b056faecabfa4788993cc7
+SHA1: b68765600828f8c9a7c484c9d5e3d178c0a785bb
+SHA256: 301e68a4496baac165ac6d839015de65378134f1bb18bf50495c65a89aee8563
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Po instalacji na dysk „Zainstaluj GlassOS” znika z Launchpada (zostaje tylko na pendrive’ie)
 
