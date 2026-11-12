@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.12.15",
+  "date": "2026-11-12",
+  "notes": "Asystent pierwszego uruchomienia (Wi-Fi, własne hasło, wygląd); nocne światło i automatyczny tryb ciemny; wybór wyjścia dźwięku i sieci Wi-Fi w Centrum sterowania; bateria pada na pasku; instalator GlassOS na dysk"
+ },
+ {
   "version": "2026.11.12.14",
   "date": "2026-11-12",
   "notes": "Co nowego: opis każdej wersji w powiadomieniu i w Ustawieniach; aktualizacje mogą instalować się same w nocy"
@@ -12,47 +17,47 @@
  {
   "version": "2026.11.12.12",
   "date": "2026-11-12",
-  "notes": "Samo naciĹ›niÄ™cie Super otwiera i zamyka Launchpad (wyĹ‚Ä…czane w SkrĂłtach klawiszowych)"
+  "notes": "Samo naciśnięcie Super otwiera i zamyka Launchpad (wyłączane w Skrótach klawiszowych)"
  },
  {
   "version": "2026.11.12.11",
   "date": "2026-11-12",
-  "notes": "Kontroler: pad jako mysz, mapowanie wszystkich przyciskĂłw na klawisze i klikniÄ™cia, przeĹ‚Ä…cznik dla gier, test kontrolera w Ustawieniach"
+  "notes": "Kontroler: pad jako mysz, mapowanie wszystkich przycisków na klawisze i kliknięcia, przełącznik dla gier, test kontrolera w Ustawieniach"
  },
  {
   "version": "2026.11.12.10",
   "date": "2026-11-12",
-  "notes": "Bluetooth: wĹ‚Ä…czenie siÄ™ utrzymuje (odblokowanie rfkill bez narzÄ™dzia rfkill, AutoEnable, stan przez D-Bus)"
+  "notes": "Bluetooth: włączenie się utrzymuje (odblokowanie rfkill bez narzędzia rfkill, AutoEnable, stan przez D-Bus)"
  },
  {
   "version": "2026.11.12.9",
   "date": "2026-11-12",
-  "notes": "Pady Xbox przez Bluetooth: moduĹ‚ uhid, lepsze parowanie (agent, zaufanie, poĹ‚Ä…czenie), ustawienia BlueZ"
+  "notes": "Pady Xbox przez Bluetooth: moduł uhid, lepsze parowanie (agent, zaufanie, połączenie), ustawienia BlueZ"
  },
  {
   "version": "2026.11.12.8",
   "date": "2026-11-12",
-  "notes": "Po aktualizacji GlassOS automatyczne wylogowanie po 5 s; rĂłwne ikony w Ustawieniach"
+  "notes": "Po aktualizacji GlassOS automatyczne wylogowanie po 5 s; równe ikony w Ustawieniach"
  },
  {
   "version": "2026.11.12.7",
   "date": "2026-11-12",
-  "notes": "Launchpad znowu szklany i rozmyty (gry nadal bez przezroczystoĹ›ci)"
+  "notes": "Launchpad znowu szklany i rozmyty (gry nadal bez przezroczystości)"
  },
  {
   "version": "2026.11.12.6",
   "date": "2026-11-12",
-  "notes": "Test OTA: poprawione powiÄ™kszanie partycji przy pierwszym starcie (naprawa bĹ‚Ä™du grub>)"
+  "notes": "Test OTA: poprawione powiększanie partycji przy pierwszym starcie (naprawa błędu grub>)"
  },
  {
   "version": "2026.11.12.5",
   "date": "2026-11-12",
-  "notes": "Aktualizacje przychodzÄ… szybciej: sprawdzanie 2 min po starcie, potem co 3 godziny"
+  "notes": "Aktualizacje przychodzą szybciej: sprawdzanie 2 min po starcie, potem co 3 godziny"
  },
  {
   "version": "2026.11.12.4",
   "date": "2026-11-12",
-  "notes": "Gry i okna peĹ‚noekranowe bez przezroczystoĹ›ci â€“ tĹ‚o pulpitu nie przeĹ›wituje"
+  "notes": "Gry i okna pełnoekranowe bez przezroczystości – tło pulpitu nie prześwituje"
  },
  {
   "version": "2026.11.12.3",
