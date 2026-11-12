@@ -1,0 +1,23 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: GlassOS
+Label: GlassOS OTA
+Suite: stable
+Codename: glassos
+Architectures: amd64 all
+Description: GlassOS over-the-air updates
+Date: Thu, 12 Nov 2026 12:06:06 UTC
+MD5Sum:
+ 6adbf757a89146c4c8f791a6b2764e99 990 Packages
+ 23c0ad5b2ecbfc8d7dba25245c4e1501 668 Packages.gz
+SHA256:
+ 6146e7bef596f7059a77d96e73dbc05b47f6dde71c7a196fe350e27399b04387 990 Packages
+ 0a2a8db95e383b8121dcf0cb23c1f828567b1555a501b0d81d7a0d42fe25f642 668 Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iHUEARYKAB0WIQSFTQ1ez4SbCwveKDuDuH6dGrdQ1gUCavWrrgAKCRCDuH6dGrdQ
+1tvTAQC39KouRziMZPZnaNSM9gq4LKDViBXQqaqvHNmJBZPmawD/b9vwLl5U0YP7
+V7YtObWQUNxPq7j7T4KhyuJU43HJ8QE=
+=T51O
+-----END PGP SIGNATURE-----
