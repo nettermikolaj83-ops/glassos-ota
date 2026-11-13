@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.13.1",
+  "date": "2026-11-13",
+  "notes": "Dock: ikony wyśrodkowane na szklanej płytce"
+ },
+ {
   "version": "2026.11.12.22",
   "date": "2026-11-12",
   "notes": "Nowy wygląd okien stosuje się sam po aktualizacji (przy następnym logowaniu)"
