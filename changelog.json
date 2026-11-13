@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.13.2",
+  "date": "2026-11-13",
+  "notes": "Monitory: obsługa wielu monitorów – układ ekranów przeciąganiem, rozdzielczość, odświeżanie, obrót, monitor główny i tryb lustrzany; GlassOS pamięta układ dla każdego zestawu monitorów i ustawia nowy monitor sam po podłączeniu; pasek menu jest na monitorze głównym"
+ },
+ {
   "version": "2026.11.13.1",
   "date": "2026-11-13",
   "notes": "Dock: ikony wyśrodkowane na szklanej płytce"
