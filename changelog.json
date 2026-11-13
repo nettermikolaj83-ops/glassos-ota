@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.13.5",
+  "date": "2026-11-13",
+  "notes": "Szkło jak dawniej: okna lekko przezroczyste z rozmyciem pod spodem (gry i pełny ekran bez zmian). Nowy Terminal (Xfce) w stylu GlassOS zamiast xterma w docku i pod Ctrl+Alt+T. Mocniejsze rozmycie"
+ },
+ {
   "version": "2026.11.13.4",
   "date": "2026-11-13",
   "notes": "GlassOS na Waylandzie: nowy kompozytor Wayfire (płynniejsze okna, rozmycie szkła, animacje), nowy dock i pulpit, ekran logowania i blokady na Waylandzie, zrzuty i nagrywanie ekranu przez grim i wf-recorder. Przyciski okien w układzie Windows. Po aktualizacji komputer uruchomi się ponownie"

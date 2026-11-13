@@ -7,17 +7,17 @@ Suite: stable
 Codename: glassos
 Architectures: amd64 all
 Description: GlassOS over-the-air updates
-Date: Fri, 13 Nov 2026 14:24:02 UTC
+Date: Fri, 13 Nov 2026 14:32:11 UTC
 MD5Sum:
- 2526bab45f8a65e589c04ce533873a6c 4831 Packages
- ad339259d50d5eb41f7ff8b14fd38024 1883 Packages.gz
+ bca1b82811d58441a14557dea7b57a83 4961 Packages
+ e9aa0470c38daef60b16511cd83dd277 1848 Packages.gz
 SHA256:
- de7616aeeb9d459270209109fa4b0afa71dc58d5b15bbf04c2fdfd9b6ea7dea5 4831 Packages
- c5b7b6cfec3ef3afe5364d3515c0c0b3787a517843ebe58415fb88764df499d5 1883 Packages.gz
+ faacf6927b3af185377211e603fdcbddc6d413bcba18eefcc91f4b8e6c656e5f 4961 Packages
+ e1eec968bb6470db752bc625f72d3fcb59d073cc56daac5109f81d0533459cbb 1848 Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQSFTQ1ez4SbCwveKDuDuH6dGrdQ1gUCavcdggAKCRCDuH6dGrdQ
-1l/wAQCvO2Kx2AGveB90bLnFVMRsPdQpuyruSXqYaB1/q5qxbAD+LE1ABQ1aCFd8
-k5DuoIgds9ZHzKy9UQfAWMNn3GQe+QM=
-=3Wfm
+iHUEARYKAB0WIQSFTQ1ez4SbCwveKDuDuH6dGrdQ1gUCavcfawAKCRCDuH6dGrdQ
+1nAdAQCFxbRJjqWMLTH6Eg261DKeRe1vDomLDqLS4YIWoUnNXAEAoTUPtVhOEXMg
+diPVZAFYDgeu4JFs4G8G9ISaNnxgjwk=
+=UxRQ
 -----END PGP SIGNATURE-----
