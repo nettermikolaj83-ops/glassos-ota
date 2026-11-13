@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.13.3
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 12304
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.13.3_all.deb
-Size: 7941200
-MD5sum: 0fdb2738a2932305c8f6781d3104fdfd
-SHA1: b9dbbb2cdc5939a8d3508f96b279129f4f9f9c21
-SHA256: 1408304f1d25e8cdd89ef0b403a4378d57888b3bcd90c864e4069a5b9f390fbe
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Pamięć masowa: nowy panel w Ustawieniach – co zajmuje dysk (kolorowy pasek), czyszczenie kosza, pamięci podręcznej, pobranych paczek i dzienników, lista dużych plików, inne dyski. Ogólne: Przywróć ustawienia fabryczne – czysty GlassOS z internetu, z zachowaniem plików i kont albo z usunięciem wszystkiego
-
-Package: glassos-desktop
 Version: 2026.11.13.4
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,6 +35,25 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Szkło jak dawniej: okna lekko przezroczyste z rozmyciem pod spodem (gry i pełny ekran bez zmian). Nowy Terminal (Xfce) w stylu GlassOS zamiast xterma w docku i pod Ctrl+Alt+T. Mocniejsze rozmycie
+
+Package: glassos-desktop
+Version: 2026.11.13.6
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 12424
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal
+Conflicts: jstest-gtk, alacritty
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.13.6_all.deb
+Size: 7975720
+MD5sum: 048fa378f407af30bbf7e2e9c360a228
+SHA1: 71dc3ff89e8df4d0377cdf13f0298549b130de9b
+SHA256: 93ab186adfb599abebe979b762dbd004cab67ed4a9f4662f0fea29cbde883faf
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Usunięto xterm i Alacritty (zastępuje je Terminal w stylu GlassOS)
 
 Package: glassos-logind-compat
 Version: 1.0
