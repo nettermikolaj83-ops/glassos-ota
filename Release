@@ -4,10 +4,10 @@ Suite: stable
 Codename: glassos
 Architectures: amd64 all
 Description: GlassOS over-the-air updates
-Date: Fri, 13 Nov 2026 12:51:11 UTC
+Date: Fri, 13 Nov 2026 13:13:08 UTC
 MD5Sum:
- 59f12439f6c93876d660a4f608f22055 4140 Packages
- 3eec234c84010330f5b2ef69c8e03d36 1496 Packages.gz
+ a7f507bf48b13e54fa2b284fe6ee7245 4380 Packages
+ c3cf2da58c2ae1555914cb34efa570e3 1636 Packages.gz
 SHA256:
- a66bfa83d7fd1cd40aae37c246f2e373ae0115d46dc8c608965afabbc9fecc5a 4140 Packages
- 63f8bf16dcbbdeb0b1cd3438c5d40a91a33224869f7ed290d9edb87a743c9c50 1496 Packages.gz
+ d3445570c5155f29468273f68ebdf741a4a93eb5375db159fdc764a428abd94a 4380 Packages
+ 0d9d07cc8e3dc2089c470146da1822422769fe5e1d39be6568d37d6061eccb03 1636 Packages.gz
