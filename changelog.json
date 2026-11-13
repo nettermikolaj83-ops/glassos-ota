@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.13.7",
+  "date": "2026-11-13",
+  "notes": "Nowości: suwaki siły szkła (Wygląd), tapeta dynamiczna (Tapeta), wygaszacz ekranu z zegarem (Ekran blokady), układy okien Super+Z, historia schowka Super+V, edycja zrzutów ekranu, waluty w Spotlight (np. 100 eur w pln), gorące narożniki, kafelki i odtwarzacz w Centrum sterowania, CPU/RAM na pasku, postęp i liczniki na ikonach w docku"
+ },
+ {
   "version": "2026.11.13.6",
   "date": "2026-11-13",
   "notes": "Usunięto xterm i Alacritty (zastępuje je Terminal w stylu GlassOS)"

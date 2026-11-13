@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.13.4
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 12348
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.13.4_all.deb
-Size: 7947488
-MD5sum: 201444a13a5ed9b16eb5bbaaa70801a4
-SHA1: 4f2de5e13392ae03e009b41a4c49f29592815663
-SHA256: 70f817b24bce6069dc7a8c85e2a34c7c556a047bb68240dadeb314e6158a21ae
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- GlassOS na Waylandzie: nowy kompozytor Wayfire (płynniejsze okna, rozmycie szkła, animacje), nowy dock i pulpit, ekran logowania i blokady na Waylandzie, zrzuty i nagrywanie ekranu przez grim i wf-recorder. Przyciski okien w układzie Windows. Po aktualizacji komputer uruchomi się ponownie
-
-Package: glassos-desktop
 Version: 2026.11.13.5
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,6 +35,25 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Usunięto xterm i Alacritty (zastępuje je Terminal w stylu GlassOS)
+
+Package: glassos-desktop
+Version: 2026.11.13.7
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 12520
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy
+Conflicts: jstest-gtk, alacritty
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.13.7_all.deb
+Size: 8014540
+MD5sum: 85abd015eb1430addda47536e26f663a
+SHA1: e54d0683308fb7cc6f5dc50e1df574fbf17a778c
+SHA256: a89f49ad71b6e1ec2fecaa34c965995f4d15e10a867163433a6321430cb93a2e
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Nowości: suwaki siły szkła (Wygląd), tapeta dynamiczna (Tapeta), wygaszacz ekranu z zegarem (Ekran blokady), układy okien Super+Z, historia schowka Super+V, edycja zrzutów ekranu, waluty w Spotlight (np. 100 eur w pln), gorące narożniki, kafelki i odtwarzacz w Centrum sterowania, CPU/RAM na pasku, postęp i liczniki na ikonach w docku
 
 Package: glassos-logind-compat
 Version: 1.0
