@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.15.2",
+  "date": "2026-11-15",
+  "notes": "Asystent AI w nowym wyglądzie: lista rozmów (zapisują się), podpowiedzi na start, Biblioteka modeli z 9 modelami do pobrania (Bielik 1.5B/4.5B/11B, Qwen, Mistral, Phi, Llama, Gemma) – pobieranie z postępem, przełączanie i usuwanie"
+ },
+ {
   "version": "2026.11.15.1",
   "date": "2026-11-15",
   "notes": "Nowa aplikacja: Asystent AI (Super+A) – czat z AI działającym lokalnie na komputerze, bez internetu. Przy pierwszym uruchomieniu pobiera polski model Bielik (1,7 GB albo 5 GB)"
