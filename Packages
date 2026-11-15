@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.13.5
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 12424
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal
-Conflicts: jstest-gtk
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.13.5_all.deb
-Size: 7975452
-MD5sum: 2916674bed7d67f1c15e83a567ce0d6f
-SHA1: 943fd9c09bba8008a7e28f8f0a8c10edc044e5b5
-SHA256: a1f1adc6fff7a2928ed6c09806941a13f254a23f4c22008d357d0eb0b61225bd
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Szkło jak dawniej: okna lekko przezroczyste z rozmyciem pod spodem (gry i pełny ekran bez zmian). Nowy Terminal (Xfce) w stylu GlassOS zamiast xterma w docku i pod Ctrl+Alt+T. Mocniejsze rozmycie
-
-Package: glassos-desktop
 Version: 2026.11.13.6
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,6 +35,25 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Nowości: suwaki siły szkła (Wygląd), tapeta dynamiczna (Tapeta), wygaszacz ekranu z zegarem (Ekran blokady), układy okien Super+Z, historia schowka Super+V, edycja zrzutów ekranu, waluty w Spotlight (np. 100 eur w pln), gorące narożniki, kafelki i odtwarzacz w Centrum sterowania, CPU/RAM na pasku, postęp i liczniki na ikonach w docku
+
+Package: glassos-desktop
+Version: 2026.11.15.1
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 53072
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy
+Conflicts: jstest-gtk, alacritty
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.15.1_all.deb
+Size: 18604416
+MD5sum: 525e2b3c8b0f344c0662b4631325ada8
+SHA1: 5d3e299d7da7664fb4974e9b671b3a0c8bcbf24a
+SHA256: 7d8469603b6428c6b7891a32cb7fd677b9f8ef7b04a2fef8e15d3c1f4f71f3f2
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Nowa aplikacja: Asystent AI (Super+A) – czat z AI działającym lokalnie na komputerze, bez internetu. Przy pierwszym uruchomieniu pobiera polski model Bielik (1,7 GB albo 5 GB)
 
 Package: glassos-logind-compat
 Version: 1.0
