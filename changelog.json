@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.17.2",
+  "date": "2026-11-17",
+  "notes": "Dyktowanie (Super+Shift+D) i Dyktafon (Super+Shift+M) – rozpoznawanie mowy po polsku na komputerze; Asystent AI: mikrofon, czytanie odpowiedzi na głos, załączanie plików PDF/Word/tekst; Launchpad: foldery, przeciąganie, wyszukiwanie; Dock: zmiana kolejności przeciąganiem, usuwanie przez wyciągnięcie, upuszczanie plików na aplikacje, stos Pobrane z postępem; nowa aplikacja Menedżer pobrań (pauza/wznawianie); szybszy start – pulpit nie czeka na sieć"
+ },
+ {
   "version": "2026.11.17.1",
   "date": "2026-11-17",
   "notes": "Nowości: AI w Spotlight (wpisz ? i pytanie), AI na zaznaczonym tekście Super+Shift+A (popraw błędy, przetłumacz, skróć…), Tryb gry (sam przy grach + kafelek w Centrum sterowania), Kopie zapasowe jak Time Machine (Ustawienia), karteczki na pulpicie (prawy klik na pulpicie), szybki podgląd plików Spacją"
