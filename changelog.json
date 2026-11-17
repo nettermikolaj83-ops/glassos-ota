@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.17.4",
+  "date": "2026-11-17",
+  "notes": "Dock z lewej, z prawej albo na dole – Ustawienia → Wygląd → Położenie Docka"
+ },
+ {
   "version": "2026.11.17.3",
   "date": "2026-11-17",
   "notes": "Rozmowa z AI (Super+Shift+Spacja) – kulka słucha, AI widzi ekran i odpowiada głosem; nowe aplikacje: Zegar, Kalendarz, Zdjęcia, Muzyka, Tłumacz, Skaner QR, Tekst z ekranu; napisy do filmów; Spotlight szuka w treści plików i odpowiada z dokumentów (??); tryb skupienia; czas przed ekranem; obraz w obrazie; tapety wideo; widżety na ekranie blokady; style ikon; nowa animacja startu; poprawka głosu Piper"
