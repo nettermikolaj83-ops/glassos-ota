@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.17.3",
+  "date": "2026-11-17",
+  "notes": "Rozmowa z AI (Super+Shift+Spacja) – kulka słucha, AI widzi ekran i odpowiada głosem; nowe aplikacje: Zegar, Kalendarz, Zdjęcia, Muzyka, Tłumacz, Skaner QR, Tekst z ekranu; napisy do filmów; Spotlight szuka w treści plików i odpowiada z dokumentów (??); tryb skupienia; czas przed ekranem; obraz w obrazie; tapety wideo; widżety na ekranie blokady; style ikon; nowa animacja startu; poprawka głosu Piper"
+ },
+ {
   "version": "2026.11.17.2",
   "date": "2026-11-17",
   "notes": "Dyktowanie (Super+Shift+D) i Dyktafon (Super+Shift+M) – rozpoznawanie mowy po polsku na komputerze; Asystent AI: mikrofon, czytanie odpowiedzi na głos, załączanie plików PDF/Word/tekst; Launchpad: foldery, przeciąganie, wyszukiwanie; Dock: zmiana kolejności przeciąganiem, usuwanie przez wyciągnięcie, upuszczanie plików na aplikacje, stos Pobrane z postępem; nowa aplikacja Menedżer pobrań (pauza/wznawianie); szybszy start – pulpit nie czeka na sieć"

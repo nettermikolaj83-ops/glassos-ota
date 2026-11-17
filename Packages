@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.15.2
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 53088
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy
-Conflicts: jstest-gtk, alacritty
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.15.2_all.deb
-Size: 18603956
-MD5sum: a52e75b5992b3e0312a15b1e4a0d8aa4
-SHA1: e007ca977644d4bdf67fc2c61ee8db45d3306d3f
-SHA256: 73ecaa354dce762e8690b3921203a685bb264687f3cd6658a13893203ab8ca9d
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Asystent AI w nowym wyglądzie: lista rozmów (zapisują się), podpowiedzi na start, Biblioteka modeli z 9 modelami do pobrania (Bielik 1.5B/4.5B/11B, Qwen, Mistral, Phi, Llama, Gemma) – pobieranie z postępem, przełączanie i usuwanie
-
-Package: glassos-desktop
 Version: 2026.11.17.1
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,6 +35,25 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Dyktowanie (Super+Shift+D) i Dyktafon (Super+Shift+M) – rozpoznawanie mowy po polsku na komputerze; Asystent AI: mikrofon, czytanie odpowiedzi na głos, załączanie plików PDF/Word/tekst; Launchpad: foldery, przeciąganie, wyszukiwanie; Dock: zmiana kolejności przeciąganiem, usuwanie przez wyciągnięcie, upuszczanie plików na aplikacje, stos Pobrane z postępem; nowa aplikacja Menedżer pobrań (pauza/wznawianie); szybszy start – pulpit nie czeka na sieć
+
+Package: glassos-desktop
+Version: 2026.11.17.3
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 132004
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy, poppler-utils, rsync, tesseract-ocr, tesseract-ocr-pol, tesseract-ocr-eng, zbar-tools, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav, gstreamer1.0-gtk3, python3-mutagen, ffmpegthumbnailer
+Conflicts: jstest-gtk, alacritty
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.17.3_all.deb
+Size: 47701336
+MD5sum: 0dfb3502475a47e0f6710e31e4212bfb
+SHA1: 6e14775900f376eae2a86cd3c3952b4e7fe7d22e
+SHA256: 936142a0f3684599046ec7baf52a54191596704e93b9009baf694d093b5fd199
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Rozmowa z AI (Super+Shift+Spacja) – kulka słucha, AI widzi ekran i odpowiada głosem; nowe aplikacje: Zegar, Kalendarz, Zdjęcia, Muzyka, Tłumacz, Skaner QR, Tekst z ekranu; napisy do filmów; Spotlight szuka w treści plików i odpowiada z dokumentów (??); tryb skupienia; czas przed ekranem; obraz w obrazie; tapety wideo; widżety na ekranie blokady; style ikon; nowa animacja startu; poprawka głosu Piper
 
 Package: glassos-logind-compat
 Version: 1.0
