@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.17.3
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 132004
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy, poppler-utils, rsync, tesseract-ocr, tesseract-ocr-pol, tesseract-ocr-eng, zbar-tools, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav, gstreamer1.0-gtk3, python3-mutagen, ffmpegthumbnailer
-Conflicts: jstest-gtk, alacritty
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.17.3_all.deb
-Size: 47701336
-MD5sum: 0dfb3502475a47e0f6710e31e4212bfb
-SHA1: 6e14775900f376eae2a86cd3c3952b4e7fe7d22e
-SHA256: 936142a0f3684599046ec7baf52a54191596704e93b9009baf694d093b5fd199
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Rozmowa z AI (Super+Shift+Spacja) – kulka słucha, AI widzi ekran i odpowiada głosem; nowe aplikacje: Zegar, Kalendarz, Zdjęcia, Muzyka, Tłumacz, Skaner QR, Tekst z ekranu; napisy do filmów; Spotlight szuka w treści plików i odpowiada z dokumentów (??); tryb skupienia; czas przed ekranem; obraz w obrazie; tapety wideo; widżety na ekranie blokady; style ikon; nowa animacja startu; poprawka głosu Piper
-
-Package: glassos-desktop
 Version: 2026.11.17.4
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,6 +35,25 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Nowe: Hasła (zaszyfrowany sejf), Kamera, Oszczędzanie baterii, Rozmowa z AI po angielsku, motywy kursora, ukrywany Dock, nowy ekran powitalny
+
+Package: glassos-desktop
+Version: 2026.11.18.2
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 197872
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy, poppler-utils, rsync, tesseract-ocr, tesseract-ocr-pol, tesseract-ocr-eng, zbar-tools, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav, gstreamer1.0-gtk3, python3-mutagen, ffmpegthumbnailer, python3-cryptography, breeze-cursor-theme, dmz-cursor-theme, xcursor-themes, lxc, dnsmasq-base
+Conflicts: jstest-gtk, alacritty
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.18.2_all.deb
+Size: 67650804
+MD5sum: 6468001d480613803c7770289ab9b62a
+SHA1: 4630b4d3904dc491777079418a11929416e580a9
+SHA256: 00ee34c49aebea72da2a08e90fcd85b29a7a0c043bc2cdcb9eee3b204e67b011
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ AI steruje komputerem (kulka wykonuje polecenia), Kreator obrazów AI, galaretowate okna, Pulpit 3D, dynamiczna wyspa, Telefon na ekranie (scrcpy), Android (Waydroid)
 
 Package: glassos-logind-compat
 Version: 1.0

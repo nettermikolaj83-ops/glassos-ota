@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.18.2",
+  "date": "2026-11-18",
+  "notes": "AI steruje komputerem (kulka wykonuje polecenia), Kreator obrazów AI, galaretowate okna, Pulpit 3D, dynamiczna wyspa, Telefon na ekranie (scrcpy), Android (Waydroid)"
+ },
+ {
   "version": "2026.11.18.1",
   "date": "2026-11-18",
   "notes": "Nowe: Hasła (zaszyfrowany sejf), Kamera, Oszczędzanie baterii, Rozmowa z AI po angielsku, motywy kursora, ukrywany Dock, nowy ekran powitalny"
