@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.18.6",
+  "date": "2026-11-18",
+  "notes": "Kulka AI: krótsze czekanie – koniec wypowiedzi po 0,7 s ciszy, wyłączenie po 6–8 s bez słowa"
+ },
+ {
   "version": "2026.11.18.5",
   "date": "2026-11-18",
   "notes": "Klawiatura ekranowa: pojawia się po kliknięciu pola tekstowego (tylko z padem / tylko bez pada / zawsze – Ustawienia → Wygląd), chowa się po naciśnięciu klawisza na prawdziwej klawiaturze; w trybie TV pole Szukaj z klawiaturą (Y)"
