@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.18.3",
+  "date": "2026-11-18",
+  "notes": "Mniej ikon: AI w jednej aplikacji (Asystent AI), małe narzędzia w Narzędziach; Tryb TV z padem; dźwięki systemu; gotowe motywy"
+ },
+ {
   "version": "2026.11.18.2",
   "date": "2026-11-18",
   "notes": "AI steruje komputerem (kulka wykonuje polecenia), Kreator obrazów AI, galaretowate okna, Pulpit 3D, dynamiczna wyspa, Telefon na ekranie (scrcpy), Android (Waydroid)"
