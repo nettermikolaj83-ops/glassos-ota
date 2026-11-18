@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.18.1",
+  "date": "2026-11-18",
+  "notes": "Nowe: Hasła (zaszyfrowany sejf), Kamera, Oszczędzanie baterii, Rozmowa z AI po angielsku, motywy kursora, ukrywany Dock, nowy ekran powitalny"
+ },
+ {
   "version": "2026.11.17.4",
   "date": "2026-11-17",
   "notes": "Dock z lewej, z prawej albo na dole – Ustawienia → Wygląd → Położenie Docka"
