@@ -1,5 +1,10 @@
 [
  {
+  "version": "2026.11.18.4",
+  "date": "2026-11-18",
+  "notes": "Okna aplikacji pełne (nie szklane), Launchpad, pasek i Dock zostają szklane – przełącznik w Ustawienia → Wygląd → Szkło; Tryb TV otwiera przycisk Menu (trzy kreski) na padzie"
+ },
+ {
   "version": "2026.11.18.3",
   "date": "2026-11-18",
   "notes": "Mniej ikon: AI w jednej aplikacji (Asystent AI), małe narzędzia w Narzędziach; Tryb TV z padem; dźwięki systemu; gotowe motywy"

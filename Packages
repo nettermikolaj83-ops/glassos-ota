@@ -1,23 +1,4 @@
 Package: glassos-desktop
-Version: 2026.11.18.1
-Architecture: all
-Maintainer: GlassOS <ota@glassos.invalid>
-Installed-Size: 132100
-Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy, poppler-utils, rsync, tesseract-ocr, tesseract-ocr-pol, tesseract-ocr-eng, zbar-tools, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav, gstreamer1.0-gtk3, python3-mutagen, ffmpegthumbnailer, python3-cryptography, breeze-cursor-theme, dmz-cursor-theme, xcursor-themes
-Conflicts: jstest-gtk, alacritty
-Replaces: jstest-gtk
-Filename: pool/glassos-desktop_2026.11.18.1_all.deb
-Size: 47707820
-MD5sum: cb59eddb6401d4335decc2ebf8fe3748
-SHA1: 754f4c444166a23301fced1626dde596b170d9d3
-SHA256: 39b0500d04ab39e189fc27404f9b4625665c345e910d1dfbc9b813a8e8b20a40
-Section: x11
-Priority: optional
-Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
- All GlassOS's own programs and settings, updated over the air.
- Nowe: Hasła (zaszyfrowany sejf), Kamera, Oszczędzanie baterii, Rozmowa z AI po angielsku, motywy kursora, ukrywany Dock, nowy ekran powitalny
-
-Package: glassos-desktop
 Version: 2026.11.18.2
 Architecture: all
 Maintainer: GlassOS <ota@glassos.invalid>
@@ -54,6 +35,25 @@ Priority: optional
 Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
  All GlassOS's own programs and settings, updated over the air.
  Mniej ikon: AI w jednej aplikacji (Asystent AI), małe narzędzia w Narzędziach; Tryb TV z padem; dźwięki systemu; gotowe motywy
+
+Package: glassos-desktop
+Version: 2026.11.18.4
+Architecture: all
+Maintainer: GlassOS <ota@glassos.invalid>
+Installed-Size: 198180
+Depends: python3, python3-gi, python3-gi-cairo, python3-xlib, python3-psutil, xfdesktop4, xdg-user-dirs, papirus-icon-theme, cups, cups-bsd, cups-browsed, ipp-usb, sane-utils, sane-airscan, simple-scan, system-config-printer, appmenu-gtk3-module, ffmpeg, slop, xinput, scrot, xclip, libnotify-bin, xss-lock, upower, python3-evdev, redshift, pulseaudio-utils, ntfs-3g, efibootmgr, glassos-logind-compat, kdeconnect, fonts-noto-color-emoji, fonts-inter, wayfire, seatd, cage, xwayland, grim, slurp, wl-clipboard, wf-recorder, wlr-randr, wlsunset, wtype, swayidle, libgtk-layer-shell0, gir1.2-gtklayershell-0.1, libgtk-session-lock0, xdg-desktop-portal-wlr, xfce4-terminal, swappy, poppler-utils, rsync, tesseract-ocr, tesseract-ocr-pol, tesseract-ocr-eng, zbar-tools, gir1.2-gstreamer-1.0, gir1.2-gst-plugins-base-1.0, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-libav, gstreamer1.0-gtk3, python3-mutagen, ffmpegthumbnailer, python3-cryptography, breeze-cursor-theme, dmz-cursor-theme, xcursor-themes, lxc, dnsmasq-base
+Conflicts: jstest-gtk, alacritty
+Replaces: jstest-gtk
+Filename: pool/glassos-desktop_2026.11.18.4_all.deb
+Size: 67751404
+MD5sum: 9a1a70ebaead6a8ad402d08b2f3b3344
+SHA1: 5084b3e0dadfb48e35627c7b436bd43e19a91d83
+SHA256: 9cc8accd06c48ea129501c22ef278265abebaa4082481e65c429078b2cb96cdf
+Section: x11
+Priority: optional
+Description: GlassOS desktop (top bar, dock tools, Settings, apps, themes)
+ All GlassOS's own programs and settings, updated over the air.
+ Okna aplikacji pełne (nie szklane), Launchpad, pasek i Dock zostają szklane – przełącznik w Ustawienia → Wygląd → Szkło; Tryb TV otwiera przycisk Menu (trzy kreski) na padzie
 
 Package: glassos-logind-compat
 Version: 1.0
